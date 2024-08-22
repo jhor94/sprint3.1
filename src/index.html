@@ -4,13 +4,14 @@
 <body>
 
     <h1>Sprint 4 IT ACADEMY</h1>
-    <button onclick="getAllDirectors()">todos los directores</button>
-    <button onclick="getMoviesFromDirector()">Filtro un solo director</button>
-    <button onclick="moviesAverageOfDirector()">media puntuacion</button>
-    <button onclick="orderAlphabetically()">orden alfabetico</button>
-    <button onclick="orderByYear()">orden por año</button>
-    <button onclick="moviesAverageByCategory()"> categoria</button>
-    <button onclick="getMoviesFromDirector()">todos los directores</button>
+    <button onclick="getAllDirectors(movies)">todos los directores</button>
+    <button onclick="getMoviesFromDirector(movies, 'Frank Darabont')">Filtro un solo director</button>
+    <button onclick="moviesAverageOfDirector(movies)">media puntuacion</button>
+    <button onclick="orderAlphabetically(movies)">orden alfabetico</button>
+    <button onclick="orderByYear(movies)">orden por año</button>
+    <button onclick="moviesAverageByCategory(movies, 'Drama')"> categoria</button>
+    <button onclick="hoursToMinutes(movies)">calculo min</button>
+    <button onclick="bestFilmOfYear(movies)">mejor peli</button>
     <script src="data.js"></script>
     <script src="films.js"></script>
 </body>
